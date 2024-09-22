@@ -1,0 +1,14 @@
+
+
+.nav-link{
+  color: white;
+}
+
+
+.active {
+  color: #2EC27E;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+{
+  color: #2EC27E;
+}

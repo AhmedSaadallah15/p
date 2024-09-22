@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --dark-background: #111111;
+  --white-text: #FFFFFF;
+  --green-text: #2EC27E;
+  --light-green-button: #00C896;
+  --gray-text: #888888;
+}
+
+body{
+  background-color: #000000;
+}
+
+
+
+.dark-background {
+  background-color: var(--dark-background);
+}
+
+.white-text {
+  color: var(--white-text);
+}
+
+.green-text {
+  color: var(--green-text);
+}
+.bg-green{
+  background-color: var(--green-text);
+}
+
+.light-green-button {
+  background-color: var(--light-green-button);
+}
+
+.gray-text {
+  color: var(--gray-text);
+}
+
+

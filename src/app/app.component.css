@@ -1,0 +1,39 @@
+
+
+
+.pic{
+  height: 300px;
+  width: 200px;
+}
+
+.download{
+  border: 1px solid #888888;
+  transition: 0.5s all;
+}
+
+.download:hover{
+  background-color: #00C896;
+  color: #FFFFFF;
+  border: none;
+}
+
+.icon{
+  height: 2.5rem;
+  width:  2.5rem;
+  border-radius:2px;
+  background-color: transparent;
+  border: 1px solid #888888;
+  color: #888888;
+  font-size: 25px;
+  transition: 0.5s all;
+}
+
+.icon:hover{
+  background-color: #2EC27E;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.5s all;
+}
+
+
+
