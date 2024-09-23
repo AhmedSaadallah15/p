@@ -19,7 +19,7 @@
   bottom: 0;
   background-color: rgba(0, 0,0, 0.7);
   opacity: 0;
-  transition: 0.5s all;
+  transition: 1s all;
 }
 
 .layer:hover{
@@ -29,4 +29,5 @@
 .card:hover
 {
   border: 1px solid #2EC27E;
+
 }

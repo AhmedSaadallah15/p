@@ -12,6 +12,7 @@ export class HomeComponent {
       <title>Ahmed Saadallah</title>
       <link rel="stylesheet" href="s">
     </head>
+    <body>
   `;
 
 

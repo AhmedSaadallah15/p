@@ -26,6 +26,7 @@
   color: #888888;
   font-size: 25px;
   transition: 0.5s all;
+  border-radius: 5px;
 }
 
 .icon:hover{
@@ -34,6 +35,33 @@
   color: #FFFFFF;
   transition: 0.5s all;
 }
+
+
+@media (min-width: 992px) {
+  .fixed-column {
+    position: fixed;
+    height: 100vh;
+    width: 25%;
+    overflow-y: auto;
+    left: 3%;
+    margin-left:2.5%;
+
+  }
+  .offset-lg-4{
+
+    margin-left:27%
+  }
+}
+
+@media (max-width: 991px) {
+  .fixed-column {
+    position: static;
+    height: auto;
+    gap: 2;
+  }
+}
+
+
 
 
 
